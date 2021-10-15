@@ -10,3 +10,4 @@
 - [Basic Literals](theory/basic-literals.md)
 - [Values and variables](theory/values-and-variables.md)
 - [Data Types](theory/data-types.md)
+- [The classification of basic types](theory/the-classification-of-basic-types.md)
