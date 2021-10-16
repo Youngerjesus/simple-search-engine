@@ -1,10 +1,6 @@
 package example.kotlin.app
 
 fun main () {
-    println("#")
-    println("##")
-    println("###")
-    println("####")
-    println("#####")
-    println("######")
+    val b: Boolean = readLine().toBoolean()
+    println(b)
 }

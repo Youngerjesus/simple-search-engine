@@ -12,3 +12,5 @@
 - [Data Types](theory/data-types.md)
 - [The classification of basic types](theory/the-classification-of-basic-types.md)
 - [Standard Output](theory/standard-output.md)
+- [Arithmetic Operations](theory/arithmetic-operations.md)
+- [Boolean and logical operations](theory/boolean=and-logical-operations.md)
