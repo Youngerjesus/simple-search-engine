@@ -14,3 +14,4 @@
 - [Arithmetic Operations](theory/arithmetic-operations.md)
 - [Boolean and logical operations](theory/boolean=and-logical-operations.md)
 - [Increment and decrement](theory/increment-and-decrement.md)
+- [Invoking functions](theory/invoking-function.md)
