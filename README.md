@@ -16,3 +16,4 @@
 - [Increment and decrement](theory/increment-and-decrement.md)
 - [Invoking functions](theory/invoking-function.md)
 - [Standard Input](theory/standard-input.md)
+- [Type Conversion](theory/type-conversion.md)
