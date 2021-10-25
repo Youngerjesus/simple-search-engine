@@ -18,3 +18,4 @@
 - [Standard Input](theory/standard-input.md)
 - [Type Conversion](theory/type-conversion.md)
 - [Reading data with a readLine](theory/reading-data-with-a-readLine.md)
+- [Objects](theory/objects.md)
