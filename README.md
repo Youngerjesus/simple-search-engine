@@ -19,3 +19,4 @@
 - [Type Conversion](theory/type-conversion.md)
 - [Reading data with a readLine](theory/reading-data-with-a-readLine.md)
 - [Objects](theory/objects.md)
+- [Type of the numeric expression](theory/type-of-the-numeric-expression.md)
