@@ -25,3 +25,4 @@
 - [Declaring Functions](theory/declaring-functions.md)
 - [Equality](theory/equality.md)
 - [Errors in programs](theory/erros-in-programs.md)
+- [What is an Exception](theory/what-is-an-exception.md)

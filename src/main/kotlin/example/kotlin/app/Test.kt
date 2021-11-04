@@ -1,13 +1,7 @@
 package example.kotlin.app
 
 fun main () {
-    val a = readLine()!!.toInt()
-    val b = readLine()!!.toInt()
-    val c = readLine()!!.toInt()
-
-    val sum = a + b + c
-
-    println(sum)
+    throw Exception("message")
 }
 
 fun divide(a: Long, b: Long): Double = a.div(b.toDouble())
