@@ -23,3 +23,4 @@
 - [Integers in action](theory/integer-in-action.md)
 - [Relational operators](theory/relational-opeators.md)
 - [Declaring Functions](theory/declaring-functions.md)
+- [Equality](theory/equality.md)

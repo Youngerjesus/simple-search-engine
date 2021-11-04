@@ -1,10 +1,21 @@
 package example.kotlin.app
 
+class Box(n:Int) {
+    var size = n
+
+    fun addBall() = size++
+
+}
+
 fun main () {
-    val a = readLine()!!.toInt()
-    val b = readLine()!!.toInt()
-    val c = readLine()!!.toInt()
-    println(isRightEquation(a, b, c))
+    Box
+    val blueBox = Box(3)
+    val azureBox = blueBox
+    val cyanBox = Box(3)
+    println(blueBox == azureBox)  // true
+    println(blueBox === azureBox) // true, azureBox points to the same object
+    println(blueBox == cyanBox)   // true
+    println(blueBox === cyanBox)  // false, cyanBox points to another object
 }
 
 fun divide(a: Long, b: Long): Double = a.div(b.toDouble())
