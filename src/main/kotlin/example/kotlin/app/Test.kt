@@ -1,19 +1,16 @@
 package example.kotlin.app
 
 fun main () {
-    val (hour, minute, second) = readLine()!!.split(" ")
-    val (day, month, year) = readLine()!!.split(" ")
+    val a = readLine()!!.toInt()
+    val b = readLine()!!.toInt()
+    val c = readLine()!!.toInt()
 
-    println("$hour:$minute:$second $day/$month/$year")
+    val triple = intArrayOf(a,b,c).sortedArrayDescending()
+
+    if (triple[0] < triple[1] + triple[2]) {
+        println("YES")
+    }
+    else {
+        println("NO")
+    }
 }
-
-fun divide(a: Long, b: Long): Double = a.div(b.toDouble())
-
-fun isVowel(alphabet: Char): Boolean {
-    val listOf = listOf('A', 'E', 'I', 'O', 'U')
-    return listOf.contains(alphabet.uppercaseChar())
-}
-
-fun getLastDigit(number: Int): Int = if (number > 0) number.mod(10) else 10 - number.mod(10)
-
-fun isRightEquation(first: Int, second: Int, third: Int): Boolean = first * second == third

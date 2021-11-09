@@ -31,3 +31,4 @@
 - [The concept of pattern](theory/the_concept_of_pattern.md)
 - [String basics](theory/string_basics.md)
 - [String templates](theory/string_templates.md)
+- [If expression](theory/if_expression.md)
