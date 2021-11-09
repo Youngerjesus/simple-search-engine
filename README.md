@@ -26,3 +26,4 @@
 - [Equality](theory/equality.md)
 - [Errors in programs](theory/erros-in-programs.md)
 - [What is an Exception](theory/what-is-an-exception.md)
+- [Design Principle](theory/design-principle.md)
