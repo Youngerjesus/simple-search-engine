@@ -1,22 +1,10 @@
 package example.kotlin.app
 
 fun main () {
-    //put your code here
-    val str = """
-    {
-        "firstName": "John",
-        "lastName": "Smith",
-        "age": 35,
-        "phoneNumbers": [
-            {
-                "type": "mobile",
-                "number": "123 567-7890"
-            }
-        ]
-    }
-    """
+    val (hour, minute, second) = readLine()!!.split(" ")
+    val (day, month, year) = readLine()!!.split(" ")
 
-    println(str.trimIndent())
+    println("$hour:$minute:$second $day/$month/$year")
 }
 
 fun divide(a: Long, b: Long): Double = a.div(b.toDouble())
