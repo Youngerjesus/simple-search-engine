@@ -28,3 +28,5 @@
 - [What is an Exception](theory/what-is-an-exception.md)
 - [Design Principle](theory/design-principle.md)
 - [Single Responsibility Principle](theory/single-responsibility-principle.md)
+- [The concept of pattern](theory/the_concept_of_pattern.md)
+- [String basics](theory/string_basics.md)
