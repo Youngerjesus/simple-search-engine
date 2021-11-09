@@ -27,3 +27,4 @@
 - [Errors in programs](theory/erros-in-programs.md)
 - [What is an Exception](theory/what-is-an-exception.md)
 - [Design Principle](theory/design-principle.md)
+- [Single Responsibility Principle](theory/single-responsibility-principle.md)
