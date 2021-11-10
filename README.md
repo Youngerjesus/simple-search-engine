@@ -32,3 +32,5 @@
 - [String basics](theory/string_basics.md)
 - [String templates](theory/string_templates.md)
 - [If expression](theory/if_expression.md)
+- [Repeating blocks](theory/reapting_blocks.md)
+- [Declaring classes](theory/declaring_classes.md)
