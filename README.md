@@ -40,5 +40,7 @@
 - [Computer algorithms](theory/computer_algorithms.md)
 - [Call stack](theory/call-stack.md)
 - [Introduction to creational patterns](theory/introduction_to_creational_patterns.md)
+- [Singleton](theory/singleton.md)
+
 
 
