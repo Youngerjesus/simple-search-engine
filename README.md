@@ -45,6 +45,7 @@
 - [JVM components](theory/jvm_components.md)
 - [Garbage collector](theory/garbage_collector.md)
 - [Class Loader](theory/class_loader.md)
+- [Binary numbers](theory/binary_numbers.md)
 
 
 
