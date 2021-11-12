@@ -36,3 +36,5 @@
 - [Declaring classes](theory/declaring_classes.md)
 - [Introduction software architecture](theory/introduction_software_architecture.md)
 - [Navigation through code](theory/navigation_through_code_Intellij.md)
+- [Writing code with pleasure](theory/writing_code_with_pleasure_intellij.md)
+
