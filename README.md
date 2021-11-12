@@ -44,6 +44,7 @@
 - [Write, compile, and run](theory/write_compile_and_run.md)
 - [JVM components](theory/jvm_components.md)
 - [Garbage collector](theory/garbage_collector.md)
+- [Class Loader](theory/class_loader.md)
 
 
 
