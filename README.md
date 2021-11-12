@@ -41,6 +41,7 @@
 - [Call stack](theory/call-stack.md)
 - [Introduction to creational patterns](theory/introduction_to_creational_patterns.md)
 - [Singleton](theory/singleton.md)
+- [Write, compile, and run](theory/write_compile_and_run.md)
 
 
 
