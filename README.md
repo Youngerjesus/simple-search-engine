@@ -35,3 +35,4 @@
 - [Repeating blocks](theory/reapting_blocks.md)
 - [Declaring classes](theory/declaring_classes.md)
 - [Introduction software architecture](theory/introduction_software_architecture.md)
+- [Navigation through code](theory/navigation_through_code_Intellij.md)
