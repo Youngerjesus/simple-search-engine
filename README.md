@@ -39,4 +39,6 @@
 - [Writing code with pleasure](theory/writing_code_with_pleasure_intellij.md)
 - [Computer algorithms](theory/computer_algorithms.md)
 - [Call stack](theory/call-stack.md)
+- [Introduction to creational patterns](theory/introduction_to_creational_patterns.md)
+
 
