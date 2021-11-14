@@ -2,8 +2,7 @@ package example.kotlin.app
 
 
 fun main() {
-    val char1 = readLine()!!.first().uppercaseChar()
-    val char2 = readLine()!!.first().uppercaseChar()
+    val numberStr = readLine()!!
 
-    println(char1 == char2)
+    println(numberStr[numberStr.length - 2])
 }
