@@ -51,6 +51,7 @@
 - [Unicode](theory/unicode.md)
 - [Working with strings](theory/working_with_strings.md)
 - [Getting substrings](theory/getting_substrings.md)
+- [Ranges](theory/ranges.md)
 
 
 

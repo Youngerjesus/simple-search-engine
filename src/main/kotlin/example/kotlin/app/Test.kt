@@ -2,5 +2,6 @@ package example.kotlin.app
 
 
 fun main() {
-    println("content".substringBefore("z"))
+    val age = readLine()!!.toInt()
+    println(age in 18..59)
 }
