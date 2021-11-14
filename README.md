@@ -53,6 +53,7 @@
 - [Getting substrings](theory/getting_substrings.md)
 - [Ranges](theory/ranges.md)
 - [When expression](theory/when_expression.md)
+- [For loop and ranges]()
 
 
 

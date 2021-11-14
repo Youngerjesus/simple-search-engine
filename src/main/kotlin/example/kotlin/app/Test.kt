@@ -1,12 +1,21 @@
 package example.kotlin.app
 
+import kotlin.math.min
+
 
 fun main() {
-    var a = 10
-    when(a) {
-        11, 12 -> print("Ok")
-        in 1..22 -> print("Ok")
-        a + a -> print("Ok")
+    val n = readLine()!!.toInt()
+    var before = Int.MIN_VALUE
+    var isAscending = true
 
+    for (i in 1..n) {
+        val number = readLine()!!.toInt()
+        if (before > number) {
+            isAscending = false
+            break
+        }
+        before = number
     }
+
+    if (isAscending) println("YES") else println("NO")
 }
