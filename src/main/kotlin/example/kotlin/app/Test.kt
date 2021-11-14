@@ -2,6 +2,11 @@ package example.kotlin.app
 
 
 fun main() {
-    val age = readLine()!!.toInt()
-    println(age in 18..59)
+    var a = 10
+    when(a) {
+        11, 12 -> print("Ok")
+        in 1..22 -> print("Ok")
+        a + a -> print("Ok")
+
+    }
 }
