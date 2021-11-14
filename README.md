@@ -48,7 +48,7 @@
 - [Binary numbers](theory/binary_numbers.md)
 - [Hexadecimal numbers](theory/hexadecimal_numbers.md)
 - [Characters](theory/characters.md)
-
+- [Unicode](theory/unicode.md)
 
 
 
