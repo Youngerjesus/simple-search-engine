@@ -55,6 +55,7 @@
 - [When expression](theory/when_expression.md)
 - [For loop and ranges](theory/for_loop_and_ranges.md)
 - [Functional decomposition](theory/functional_decomposition.md)
+- [Default arguments](theory/default_arguments.md)
 
 
 
