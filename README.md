@@ -56,6 +56,7 @@
 - [For loop and ranges](theory/for_loop_and_ranges.md)
 - [Functional decomposition](theory/functional_decomposition.md)
 - [Default arguments](theory/default_arguments.md)
+- [Named arguments](theory/names_arguments.md)
 
 
 
