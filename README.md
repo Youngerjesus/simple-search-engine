@@ -53,7 +53,8 @@
 - [Getting substrings](theory/getting_substrings.md)
 - [Ranges](theory/ranges.md)
 - [When expression](theory/when_expression.md)
-- [For loop and ranges]()
+- [For loop and ranges](theory/for_loop_and_ranges.md)
+- [Functional decomposition](theory/functional_decomposition.md)
 
 
 
