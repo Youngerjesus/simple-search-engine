@@ -59,6 +59,7 @@
 - [Named arguments](theory/names_arguments.md)
 - [Constructors](theory/constructors.md)
 - [Member functions](theory/member_functions.md)
+- [Object declarations](theory/object_declarations.md)
 
 
 
