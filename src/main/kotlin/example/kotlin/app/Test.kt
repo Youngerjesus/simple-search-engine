@@ -10,9 +10,14 @@ object PlayingField {
     const val width = 2
 }
 
-fun main() {
-    val size = Size(5, 3)
-    println("${size.height}, ${size.width}")
+class Cat(val name: String, val age: Int) {
+    val enoughCat = false // Of course, it's a false, there are never enough cats!
+    init {
+        check(false) {"Invalid"}
+        require(age >= 0) { "Invalid age: $age" }        // IllegalArgumentException
+    }
+}
 
-    val width = PlayingField.width
+fun main() {
+    val cat = Cat("test", -1)
 }
