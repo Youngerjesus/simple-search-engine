@@ -61,6 +61,7 @@
 - [Member functions](theory/member_functions.md)
 - [Object declarations](theory/object_declarations.md)
 - [Debugging techniques](theory/debugging_techniques.md)
+- [Debugging overview](theory/debugging_overview.md)
 
 
 
