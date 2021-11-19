@@ -58,7 +58,7 @@
 - [Default arguments](theory/default_arguments.md)
 - [Named arguments](theory/names_arguments.md)
 - [Constructors](theory/constructors.md)
-
+- [Member functions](theory/member_functions.md)
 
 
 
