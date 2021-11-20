@@ -64,6 +64,7 @@
 - [Debugging overview](theory/debugging_overview.md)
 - [Debugging simple constructs](theory/debugging_simple_constructs.md)
 - [Advanced Debugger features](theory/advanced_debugger_feature.md)
+- [Introduction to MutableList](theory/introduction_software_architecture.md)
 
 
 

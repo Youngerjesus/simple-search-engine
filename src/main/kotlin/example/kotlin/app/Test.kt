@@ -18,7 +18,8 @@ class Cat(val name: String, val age: Int) {
 }
 
 fun main() {
-    whatever(5)
+    val mutableListOf = mutableListOf(Cat("test", 5), 5, 5, 5.5)
+    println(mutableListOf)
 }
 
 fun whatever(num: Int) {
