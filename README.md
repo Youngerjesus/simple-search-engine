@@ -66,4 +66,4 @@
 - [Advanced Debugger features](theory/advanced_debugger_feature.md)
 - [Introduction to MutableList](theory/introduction_software_architecture.md)
 - [Work with MutableLists](theory/work_with_mutableLists.md)
-
+- [For loop and lists](theory/for_loop_and_lists.md)
