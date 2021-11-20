@@ -62,6 +62,7 @@
 - [Object declarations](theory/object_declarations.md)
 - [Debugging techniques](theory/debugging_techniques.md)
 - [Debugging overview](theory/debugging_overview.md)
+- [Debugging simple constructs](theory/debugging_simple_constructs.md)
 
 
 

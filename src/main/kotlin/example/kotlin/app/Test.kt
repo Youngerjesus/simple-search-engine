@@ -19,5 +19,24 @@ class Cat(val name: String, val age: Int) {
 }
 
 fun main() {
-    val cat = Cat("test", -1)
+    whatever()
+}
+
+fun whatever() {
+    val rangeStart = 'C'
+    val rangeEnd = 'Y'
+    val findLetter = 'Q'
+    for (c in rangeStart..rangeEnd) {
+        if (c == findLetter) {
+            System.out.printf(
+                "Character %s is within range %s-%s",
+                findLetter, rangeStart, rangeEnd
+            )
+            return
+        }
+    }
+    System.out.printf(
+        "Character %s is within range %s-%s",
+        findLetter, rangeStart, rangeEnd
+    )
 }
