@@ -18,8 +18,10 @@ class Cat(val name: String, val age: Int) {
 }
 
 fun main() {
-    val mutableListOf = mutableListOf(Cat("test", 5), 5, 5, 5.5)
-    println(mutableListOf)
+    val sentence = "a long text"
+    val wordsList: List<String> = sentence.split(" ") // ["a", "long", "text"]
+
+    val mutableWordList = sentence.split(" ").toMutableList() // MutableList ["a", "long", "text"]
 }
 
 fun whatever(num: Int) {
