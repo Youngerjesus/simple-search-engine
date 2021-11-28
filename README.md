@@ -70,3 +70,4 @@
 - [Processing strings](theory/processing_strings.md)
 - [Searching Problem](theory/searching_problem.md)
 - [Pseudocode](theory/pseudocode.md)
+- [Linear search](theory/linear_search.md)
