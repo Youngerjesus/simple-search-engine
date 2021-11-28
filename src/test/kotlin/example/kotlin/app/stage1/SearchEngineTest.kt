@@ -32,6 +32,16 @@ internal class SearchEngineTest {
         )
     }
 
+    fun solution() {
+        val stringList = readLine()!!.split(" ").toList() // "first", "second", "third", "fourth"
+        val searchWord = readLine()!!                                // "third"
+
+        when (val index = searchEngine.search(stringList, searchWord)) {
+            -1 -> println("Not found")
+            else -> println(index)
+        }
+    }
+
     private fun assertFound(stringList: List<String>, word: String, actualResult: Int){
         val index = searchEngine.search(stringList, word)
         assertEquals(actualResult, index)
