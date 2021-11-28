@@ -71,3 +71,4 @@
 - [Searching Problem](theory/searching_problem.md)
 - [Pseudocode](theory/pseudocode.md)
 - [Linear search](theory/linear_search.md)
+- [Jump search](theory/jump_search.md)
