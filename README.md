@@ -68,3 +68,4 @@
 - [Work with MutableLists](theory/work_with_mutableLists.md)
 - [For loop and lists](theory/for_loop_and_lists.md)
 - [Processing strings](theory/processing_strings.md)
+- [Searching Problem](theory/searching_problem.md)
