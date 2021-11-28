@@ -18,8 +18,27 @@ internal class SearchEngineTest {
         )
     }
 
+    @Test fun 주어진_문자열_리스트에서_단어를_찾은_경우() {
+       assertFound(
+           listOf("first", "second", "third", "fourth"),
+           "third",
+           3
+       )
+
+        assertFound(
+            listOf("first", "second", "third", "fourth"),
+            "fourth",
+            4
+        )
+    }
+
+    private fun assertFound(stringList: List<String>, word: String, actualResult: Int){
+        val index = searchEngine.search(stringList, word)
+        assertEquals(actualResult, index)
+    }
+
     private fun assertNotFound(stringList: List<String>, word: String) {
         val index: Int = searchEngine.search(stringList, word)
-        assertEquals(index, -1)
+        assertEquals(-1, index)
     }
 }
