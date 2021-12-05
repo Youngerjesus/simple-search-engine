@@ -1,8 +1,13 @@
 # 테스트 리스트 
 
-- DataSet 을 저장할 수 있어야 한다.
-  - ~~DataSet 에서 Person 모델을 가지고 저장하면 된다.~~  
-  - 데이터베이스에서부터 데이터 셋을 가지고 올 수 있어야 한다. 
+- Input 을 DB 에 저장할 수 있어야 한다.
+  - ~~Input 에서 Person 모델을 가지고 저장하면 된다.~~  
+  - ~~데이터를 가지고 올 수 있어야한다. (firstName, lastName, email 모두)
 - 쿼리를 가지고 사람들을 찾을 수 있어야 한다.
-- 쿼리를 가지고 사람들을 못찾으면 "No matching people found." 을 print 해야한다. 
+- 쿼리를 가지고 사람들을 못찾으면 "No matching people found." 을 print 해야한다.
+- 문제 해결 방법으 어떤게 있을까? 
+  - 모든 칼럼마다 (firstName, lastName, email) 인덱싱을 걸어서 데이터를 조회하는 방법
+    - 데이터 중복이 발생한다. 대신에 결과르 조회하는 속도는 더 빠르다.
+   
+   
 
