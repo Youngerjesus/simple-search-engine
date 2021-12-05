@@ -10,9 +10,8 @@ internal class PersonDatabaseTest {
         //given
         val database = PersonDatabase()
         //when
-        val isSuccess: Boolean = database.insert(Person("first", "last", ""))
+        database.insert(Person("first", "last", ""))
         //then
-        assertEquals(true, isSuccess)
     }
 
     @Test fun fistName_으로_데이터베이스에서_조회하기() {

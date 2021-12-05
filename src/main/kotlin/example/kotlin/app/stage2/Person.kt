@@ -2,15 +2,17 @@ package example.kotlin.app.stage2
 
 import java.lang.UnsupportedOperationException
 
-class Person (val firstName: String, val lastName: String) {
-    fun hasEmail(): Boolean {
-        return email != ""
-    }
-
+class Person (val firstName: String) {
+    var lastName: String = ""
     var email: String = ""
 
-    constructor(_firstName: String, _lastName: String, _email: String) : this(_firstName,_lastName) {
-        email =  _email
+    constructor(_firstName: String, _lastName: String) : this(_firstName) {
+        this.lastName = _lastName
+    }
+
+    constructor(_firstName: String, _lastName: String, _email: String) : this(_firstName) {
+        this.lastName = _lastName
+        this.email =  _email
     }
 
     operator fun get(property: String): String {
@@ -20,5 +22,12 @@ class Person (val firstName: String, val lastName: String) {
             "email" -> this.email
             else -> throw UnsupportedOperationException()
         }
+    }
+
+    override fun toString(): String {
+        if (this.email.isBlank()) {
+            return "${this.firstName} ${this.lastName}"
+        }
+        return "${this.firstName} ${this.lastName} ${this.email}"
     }
 }

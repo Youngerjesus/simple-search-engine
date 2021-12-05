@@ -10,24 +10,24 @@ class PersonDatabase {
         }
     }
 
-    fun insert(person: Person): Boolean {
+    fun insert(person: Person) {
         for (index in indexes) {
+            val key = person[index].lowercase()
             if (person[index].isBlank()) {
                 continue
             }
-            if (database[index]?.contains(person[index]) == false) {
-                database[index]?.put(person[index], mutableListOf())
+            if (database[index]?.contains(key) == false) {
+                database[index]?.put(key, mutableListOf())
             }
-            database[index]?.get(person[index])?.add(person)
+            database[index]?.get(key)?.add(person)
         }
-        return true
     }
 
     fun getPerson(query: String): List<Person> {
         val result = mutableSetOf<Person>()
 
         for (index in indexes) {
-            val findPersonList = database[index]?.get(query)
+            val findPersonList = database[index]?.get(query.lowercase())
             if (findPersonList != null) {
                 result.addAll(findPersonList)
             }
@@ -36,3 +36,4 @@ class PersonDatabase {
         return result.toList()
     }
 }
+
