@@ -61,6 +61,16 @@ internal class PersonDatabaseTest {
         assertEquals(person, findPersons[0])
     }
 
+    @Test fun 조회결과가_없는_경우() {
+        //given
+        val database = PersonDatabase()
+        insertToDatabase(database, "Erick Harrington harrington@gmail.com")
+        //when
+        val findPerson = database.getPerson("WEBB@gmail.com")
+        //then
+        assertTrue(findPerson.isEmpty())
+    }
+
     private fun insertToDatabase(database: PersonDatabase, input: String): Person {
         val person = createPerson(input)
         database.insert(person)
