@@ -1,6 +1,7 @@
 package example.kotlin.app.stage2
 
 import org.junit.jupiter.api.Assertions.*
+import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 
 internal class PersonDatabaseTest {
@@ -22,6 +23,22 @@ internal class PersonDatabaseTest {
         val findPersons: List<Person> = database.getPerson(person.firstName)
         //then
         assertEquals(person, findPersons[0])
+    }
+
+    @Test fun firstName_으로_데이터베이스에서_여러값들_조회하기() {
+        //given
+        val database = PersonDatabase()
+        val personList = mutableListOf<Person>()
+        personList.add(
+            insertToDatabase(database, "Erick Harrington harrington@gmail.com")
+        )
+        personList.add(
+            insertToDatabase(database, "Erick Burgess")
+        )
+        //when
+        val findPerson: List<Person> = database.getPerson("Erick")
+        //then
+        assertEquals(personList, findPerson)
     }
 
     @Test fun lastName_으로_데이터베이스에서_조회하기() {
@@ -51,11 +68,13 @@ internal class PersonDatabaseTest {
     }
 
     private fun createPerson(input: String): Person {
-        val firstName = input.split(" ")[0]
-        val lastName = input.split(" ")[1]
-        val email = input.split(" ")[2]
-        val person = Person(firstName, lastName, email)
-        return person
+        val split = input.split(" ")
+        if (split.size < 3) {
+            val (firstName, lastName) = input.split(" ")
+            return Person(firstName, lastName)
+        }
+        val (firstName, lastName, email) = input.split(" ")
+        return Person(firstName, lastName, email)
     }
 
 }

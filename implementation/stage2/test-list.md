@@ -1,9 +1,10 @@
 # 테스트 리스트 
 
-- Input 을 DB 에 저장할 수 있어야 한다.
+- ~~Input 을 DB 에 저장할 수 있어야 한다.~~
   - ~~Input 에서 Person 모델을 가지고 저장하면 된다.~~  
-  - ~~데이터를 가지고 올 수 있어야한다. (firstName, lastName, email 모두)
+  - ~~데이터를 가지고 올 수 있어야한다. (firstName, lastName, email 모두)~~
 - 쿼리를 가지고 사람들을 찾을 수 있어야 한다.
+  - 한 명을 찾을 수도 있고, 여러명을 찾을 수 있다. 
 - 쿼리를 가지고 사람들을 못찾으면 "No matching people found." 을 print 해야한다.
 - 문제 해결 방법으 어떤게 있을까? 
   - 모든 칼럼마다 (firstName, lastName, email) 인덱싱을 걸어서 데이터를 조회하는 방법
