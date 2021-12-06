@@ -27,6 +27,7 @@ class Menu {
     }
 
     fun printFoundPeople(searchEngine: SearchEngine) {
+        println("Enter a name or email to search all suitable people.")
         val findPersons = searchEngine.search(readLine()!!)
         findPersons.forEach { person -> println(person.toString())}
     }

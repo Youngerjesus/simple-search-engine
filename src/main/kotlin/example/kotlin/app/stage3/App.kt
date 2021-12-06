@@ -14,7 +14,6 @@ fun main() {
         }
 
         if (userInput.choiceFindPerson()) {
-            println("Enter a name or email to search all suitable people.")
             menu.printFoundPeople(searchEngine)
         }
 
