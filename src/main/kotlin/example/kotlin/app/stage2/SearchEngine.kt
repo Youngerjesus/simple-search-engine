@@ -27,4 +27,8 @@ class SearchEngine {
         val (firstName, lastName, email) = query.split(" ")
         return this.database.insert(Person(firstName, lastName, email))
     }
+
+    fun findAll(): List<Person> {
+        return database.findAll()
+    }
 }

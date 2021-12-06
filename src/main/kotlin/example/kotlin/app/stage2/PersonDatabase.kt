@@ -35,5 +35,17 @@ class PersonDatabase {
 
         return result.toList()
     }
+
+    fun findAll(): List<Person> {
+        val result = mutableSetOf<Person>()
+
+        for (index in indexes) {
+            val keys = database[index]?.keys ?: emptySet()
+            keys.forEach{ key ->
+                result += database[index]?.get(key) ?: emptyList()
+            }
+        }
+        return result.toList()
+    }
 }
 

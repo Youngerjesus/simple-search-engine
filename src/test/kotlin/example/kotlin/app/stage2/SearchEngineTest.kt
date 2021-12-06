@@ -6,26 +6,28 @@ import org.junit.jupiter.api.Test
 internal class SearchEngineTest {
 
     @Test
-    fun expandSearch() {
-        //given
-        val searchEngine = SearchEngine()
-        val database = PersonDatabase()
-        searchEngine.setDatabase(database)
-        insertToSearchEngineWithTestData(searchEngine)
-        val query = "ERICK"
+    fun 검색엔진에_저장되어_있는_모든_사람들_조회() {
+        assertFindAll(
+            SearchEngine(),
+            "Dwight Joseph djo@gmail.com",
+            "Rene Webb webb@gmail.com",
+            "Katie Jacobs"
+        )
+
+        assertFindAll(
+            SearchEngine(),
+            "Erick Harrington harrington@gmail.com",
+            "Myrtle Medina",
+            "Erick Burgess"
+        )
+    }
+
+    private fun assertFindAll(searchEngine: SearchEngine, vararg persons: String) {
+        persons.forEach { person -> searchEngine.insert(person) }
         //when
-        val personList: List<Person> = searchEngine.search(query)
+        val allPeople = searchEngine.findAll()
+                                    .map { person -> person.toString()}
         //then
-        println(personList)
+        persons.forEach{ person -> assertTrue(allPeople.contains(person)) }
     }
-
-    private fun insertToSearchEngineWithTestData(searchEngine: SearchEngine) {
-        searchEngine.insert("Dwight Joseph djo@gmail.com")
-        searchEngine.insert("Rene Webb webb@gmail.com")
-        searchEngine.insert("Katie Jacobs")
-        searchEngine.insert("Erick Harrington harrington@gmail.com")
-        searchEngine.insert("Myrtle Medina")
-        searchEngine.insert("Erick Burgess")
-    }
-
 }
