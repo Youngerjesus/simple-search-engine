@@ -73,3 +73,4 @@
 - [Linear search](theory/linear_search.md)
 - [Jump search](theory/jump_search.md)
 - [Null safety](theory/null_safety.md)
+- [Functions as objects](theory/function_as_objects.md)
