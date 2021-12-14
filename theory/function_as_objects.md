@@ -137,7 +137,7 @@
 
  ## Real-world usage
 
-> The previous example seems to be a bit synthetic. What about more realistic examples? Well, see for yourself.
+> The previous example seemstto be a bit synthetic. What about more realistic examples? Well, see for yourself.
 >
 > The String type has the filter method to filter symbols. How does it know which symbols to remove from the string and which ones to leave in it? The answer is simple: this method takes a predicate as an argument and then uses it for internal computations. A predicate is a function that takes an argument and returns a Boolean result. So in the filter method, the predicate says if the symbol should be left and has the (Char) -> Boolean type.
 >
