@@ -75,3 +75,4 @@
 - [Null safety](theory/null_safety.md)
 - [Functions as objects](theory/function_as_objects.md)
 - [Lambda expressions](theory/lambda_expressions.md)
+- [Introduction to operating systems](theory/introduction_to_operating_systems.md)
