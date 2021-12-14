@@ -77,3 +77,4 @@
 - [Lambda expressions](theory/lambda_expressions.md)
 - [Introduction to operating systems](theory/introduction_to_operating_systems.md)
 - [Files](theory/files.md)
+- [Reading files](theory/reading_files.md)
