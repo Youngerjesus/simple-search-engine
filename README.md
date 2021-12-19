@@ -81,3 +81,4 @@
 - [Command line overview](theory/command_line_overview.md)
 - [Arrays](theory/arrays.md)
 - [String arrays](theory/string_arrays.md)
+- [The main() function](theory/the_main_function.md)
