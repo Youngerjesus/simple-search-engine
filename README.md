@@ -78,3 +78,4 @@
 - [Introduction to operating systems](theory/introduction_to_operating_systems.md)
 - [Files](theory/files.md)
 - [Reading files](theory/reading_files.md)
+- [Command line overview](theory/command_line_overview.md)
