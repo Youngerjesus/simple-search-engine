@@ -80,3 +80,4 @@
 - [Reading files](theory/reading_files.md)
 - [Command line overview](theory/command_line_overview.md)
 - [Arrays](theory/arrays.md)
+- [String arrays](theory/string_arrays.md)
