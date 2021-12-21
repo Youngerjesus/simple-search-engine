@@ -1,6 +1,6 @@
 package example.kotlin.app.stage2
 
-class PersonDatabase {
+class PersonDatabase : Database<Person> {
     private val database = mutableMapOf<String, MutableMap<String, MutableList<Person>>>()
     private val indexes = mutableListOf("firstName", "lastName", "email")
 
@@ -10,7 +10,7 @@ class PersonDatabase {
         }
     }
 
-    fun insert(person: Person) {
+    override fun insert(person: Person) {
         for (index in indexes) {
             val key = person[index].lowercase()
             if (person[index].isBlank()) {
@@ -36,7 +36,7 @@ class PersonDatabase {
         return result.toList()
     }
 
-    fun findAll(): List<Person> {
+    override fun findAll(): List<Person> {
         val result = mutableSetOf<Person>()
 
         for (index in indexes) {
