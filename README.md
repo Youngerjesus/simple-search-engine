@@ -82,3 +82,4 @@
 - [Arrays](theory/arrays.md)
 - [String arrays](theory/string_arrays.md)
 - [The main() function](theory/the_main_function.md)
+- [Creating custom exceptions](theory/creating_custom_exceptions.md)
