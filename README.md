@@ -87,3 +87,4 @@
 - [Thread as object](theory/thread_as_object.md)
 - [Custom threads](theory/custom_thread.md)
 - [Thread management](theory/thread_management.md)
+- [Exception in threads](theory/exceptions_in_threads.md)
