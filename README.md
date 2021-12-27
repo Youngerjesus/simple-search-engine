@@ -83,3 +83,4 @@
 - [String arrays](theory/string_arrays.md)
 - [The main() function](theory/the_main_function.md)
 - [Creating custom exceptions](theory/creating_custom_exceptions.md)
+- [Functional references](theory/functional_references.md)
