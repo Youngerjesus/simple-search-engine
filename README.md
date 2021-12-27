@@ -85,3 +85,4 @@
 - [Creating custom exceptions](theory/creating_custom_exceptions.md)
 - [Functional references](theory/functional_references.md)
 - [Thread as object](theory/thread_as_object.md)
+- [Custom threads](theory/custom_thread.md)
