@@ -1,8 +1,8 @@
 package example.kotlin.app.stage3
 
-import example.kotlin.app.stage2.SearchEngine
+import example.kotlin.app.stage4.SearchEngine
 
-class Menu {
+object Menu {
     fun display() {
         println("== Menu ===")
         println("1. Find a person")

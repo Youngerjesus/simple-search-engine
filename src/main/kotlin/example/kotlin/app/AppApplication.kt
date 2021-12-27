@@ -1,13 +1,15 @@
 package example.kotlin.app
 
-import example.kotlin.app.stage2.SearchEngine
+import example.kotlin.app.stage4.SearchEngine
 import example.kotlin.app.stage3.Menu
-import org.springframework.boot.runApplication
-
-class AppApplication
 
 fun main() {
-	val (searchEngine, menu) = initialization()
+	displayMenu()
+}
+
+private fun displayMenu() {
+	val menu = Menu
+	val searchEngine = SearchEngine()
 
 	while (true) {
 		menu.display()
@@ -26,17 +28,3 @@ fun main() {
 		}
 	}
 }
-
-fun initialization() : Pair<SearchEngine, Menu>{
-	println("Enter the number of people:")
-	val peopleCount = readLine()!!.toInt()
-
-	println("Enter all people:")
-	val searchEngine = SearchEngine()
-	for (i in 1..peopleCount) {
-		searchEngine.insert(readLine()!!)
-	}
-
-	return Pair(searchEngine, Menu())
-}
-

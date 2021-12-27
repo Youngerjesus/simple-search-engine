@@ -1,6 +1,6 @@
 package example.kotlin.app.stage2
 
-class PersonDatabase : Database<Person> {
+class PersonRepository : Repository<Person> {
     private val database = mutableMapOf<String, MutableMap<String, MutableList<Person>>>()
     private val indexes = mutableListOf("firstName", "lastName", "email")
 
@@ -23,7 +23,7 @@ class PersonDatabase : Database<Person> {
         }
     }
 
-    fun getPerson(query: String): List<Person> {
+    override fun get(query: String): List<Person> {
         val result = mutableSetOf<Person>()
 
         for (index in indexes) {

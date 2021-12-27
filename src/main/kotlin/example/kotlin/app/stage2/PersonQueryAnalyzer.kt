@@ -1,8 +1,23 @@
 package example.kotlin.app.stage2
 
-class PersonQueryAnalyzer : QueryAnalyzer<Person> {
+object PersonQueryAnalyzer {
 
-    override fun analyze(query: String): Person {
+    fun analyze(query: String): (Person) -> Boolean {
+        if (isOneLineString(query)) {
+            return { it:Person ->
+                it.firstName == query ||
+                it.lastName == query ||
+                it.email == query
+            }
+        }
+        throw RuntimeException("failed query analyze")
+    }
+
+    private fun isOneLineString(query: String): Boolean {
+        return query.split(" ").size == 1
+    }
+
+    fun convert(query: String): Person {
         val split = query.split(" ")
 
         if (split.size < 2) {
