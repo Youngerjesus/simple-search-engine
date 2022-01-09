@@ -97,3 +97,4 @@ In this project you will create your own search engine, though it probably wonâ€
 - [Thread management](theory/thread_management.md)
 - [Exception in threads](theory/exceptions_in_threads.md)
 - [Companion object](theory/companion_object.md)
+- [Enum](theory/enum.md)
