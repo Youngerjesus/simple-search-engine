@@ -99,3 +99,4 @@ In this project you will create your own search engine, though it probably wonâ€
 - [Companion object](theory/companion_object.md)
 - [Enum](theory/enum.md)
 - [Simultaneous tasks](theory/simultaneous_tasks.md)
+- [Asynchronous programming techniques & problems](theory/asynchronous_programming_techinques_and_problems.md)
