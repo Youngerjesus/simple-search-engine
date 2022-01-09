@@ -8,15 +8,15 @@ object PersonConverter {
 
         if (split.size < 2) {
             val (firstName) = query.split(" ")
-            return Person(firstName)
+            return Person(firstName.lowercase())
         }
 
         if (split.size < 3) {
             val (firstName, lastName) = query.split(" ")
-            return Person(firstName, lastName)
+            return Person(firstName.lowercase(), lastName.lowercase())
         }
 
         val (firstName, lastName, email) = query.split(" ")
-        return Person(firstName, lastName, email)
+        return Person(firstName.lowercase(), lastName.lowercase(), email.lowercase())
     }
 }

@@ -1,7 +1,7 @@
 package example.kotlin.app
 
-import example.kotlin.app.stage4.SearchEngine
 import example.kotlin.app.stage3.Menu
+import example.kotlin.app.stage5.SearchEngine
 
 fun main() {
 	displayMenu()

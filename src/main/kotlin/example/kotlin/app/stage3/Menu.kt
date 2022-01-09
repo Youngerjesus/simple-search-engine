@@ -1,10 +1,10 @@
 package example.kotlin.app.stage3
 
-import example.kotlin.app.stage4.SearchEngine
+import example.kotlin.app.stage5.SearchEngine
 
 object Menu {
     fun display() {
-        println("== Menu ===")
+        println("=== Menu ===")
         println("1. Find a person")
         println("2. Print all people")
         println("0. Exit")
@@ -24,6 +24,8 @@ object Menu {
         println("=== List of people ===")
         searchEngine.findAll()
             .forEach{ person -> println(person.toString())}
+
+        println("=== End ===")
     }
 
     fun printFoundPeople(searchEngine: SearchEngine) {

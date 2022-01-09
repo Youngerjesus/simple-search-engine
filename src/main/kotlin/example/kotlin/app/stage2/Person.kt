@@ -30,4 +30,11 @@ class Person (val firstName: String) {
         }
         return "${this.firstName} ${this.lastName} ${this.email}"
     }
+
+    override fun equals(other: Any?): Boolean {
+        val person = other as Person
+        return this.firstName == person.firstName &&
+                this.lastName == person.lastName &&
+                this.email == person.email
+    }
 }
