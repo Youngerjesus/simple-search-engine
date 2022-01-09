@@ -16,21 +16,4 @@ object PersonQueryAnalyzer {
     private fun isOneLineString(query: String): Boolean {
         return query.split(" ").size == 1
     }
-
-    fun convert(query: String): Person {
-        val split = query.split(" ")
-
-        if (split.size < 2) {
-            val (firstName) = query.split(" ")
-            return Person(firstName)
-        }
-
-        if (split.size < 3) {
-            val (firstName, lastName) = query.split(" ")
-            return Person(firstName, lastName)
-        }
-
-        val (firstName, lastName, email) = query.split(" ")
-        return Person(firstName, lastName, email)
-    }
 }
