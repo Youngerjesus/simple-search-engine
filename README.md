@@ -1,7 +1,15 @@
 # Simple Search Engine
-- link: https://hyperskill.org/projects/89?track=3
+- https://hyperskill.org/projects/89?track=3
 
 ***
+
+## About 
+
+About
+In this project you will create your own search engine, though it probably won’t compete with Google. Yours will be a simple search engine that processes a limited collection of data and searches it for a word or a phrase. It’ll be simple but cool.
+
+![demo](video/demo.gif)
+
 
 ## [Theory]
 
@@ -88,3 +96,4 @@
 - [Custom threads](theory/custom_thread.md)
 - [Thread management](theory/thread_management.md)
 - [Exception in threads](theory/exceptions_in_threads.md)
+- [Companion object](theory/companion_object.md)
