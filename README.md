@@ -101,3 +101,4 @@ In this project you will create your own search engine, though it probably wonâ€
 - [Simultaneous tasks](theory/simultaneous_tasks.md)
 - [Asynchronous programming techniques & problems](theory/asynchronous_programming_techinques_and_problems.md)
 - [First steps to coroutines](theory/first_steps_to_coroutines.md)
+- [Suspending functions](theory/suspending_functions.md)
