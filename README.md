@@ -104,3 +104,4 @@ In this project you will create your own search engine, though it probably wonâ€
 - [Suspending functions](theory/suspending_functions.md)
 - [Coroutine builders: overview](theory/coroutine_builders_overview.md)
 - [Writing files](theory/writing_files.md)
+- [File hierarchies](theory/file_hierahchies.md)
