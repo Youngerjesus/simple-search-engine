@@ -106,3 +106,5 @@ In this project you will create your own search engine, though it probably wonâ€
 - [Writing files](theory/writing_files.md)
 - [File hierarchies](theory/file_hierahchies.md)
 - [Json Moshi Library](theory/json_moshi_library.md)
+- [Image colors](theory/image_colors.md)
+- [Properties accessors](theory/properties_accessors.md)
