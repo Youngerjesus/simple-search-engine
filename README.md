@@ -112,3 +112,4 @@ In this project you will create your own search engine, though it probably wonâ€
 - [Lazy initialization](theory/lazy_initialization.md)
 - [Extension functions](theory/extension_functions.md)
 - [Data class](theory/data_class.md)
+- [Destructuring declarations](theory/destructuring_declartions.md)
