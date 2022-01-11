@@ -110,3 +110,5 @@ In this project you will create your own search engine, though it probably wonâ€
 - [Properties accessors](theory/properties_accessors.md)
 - [Secondary constructor](theory/secondary_constructor.md)
 - [Lazy initialization](theory/lazy_initialization.md)
+- [Extension functions](theory/extension_functions.md)
+- [Data class](theory/data_class.md)
