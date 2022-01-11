@@ -109,3 +109,4 @@ In this project you will create your own search engine, though it probably wonâ€
 - [Image colors](theory/image_colors.md)
 - [Properties accessors](theory/properties_accessors.md)
 - [Secondary constructor](theory/secondary_constructor.md)
+- [Lazy initialization](theory/lazy_initialization.md)
