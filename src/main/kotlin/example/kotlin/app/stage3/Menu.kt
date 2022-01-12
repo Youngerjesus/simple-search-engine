@@ -1,8 +1,11 @@
 package example.kotlin.app.stage3
 
-import example.kotlin.app.stage5.SearchEngine
+import example.kotlin.app.stage6.SearchEngine
+import example.kotlin.app.stage6.strategies.SearchStrategyFactory
 
 object Menu {
+    val searchEngine = SearchEngine()
+
     fun display() {
         println("=== Menu ===")
         println("1. Find a person")
@@ -20,7 +23,7 @@ object Menu {
         }
     }
 
-    fun printAllPeople(searchEngine: SearchEngine) {
+    fun printAllPeople() {
         println("=== List of people ===")
         searchEngine.findAll()
             .forEach{ person -> println(person.toString())}
@@ -28,10 +31,22 @@ object Menu {
         println("=== End ===")
     }
 
-    fun printFoundPeople(searchEngine: SearchEngine) {
+    fun printFoundPeople() {
+        printSearchStrategy()
         println("Enter a name or email to search all suitable people.")
         val findPersons = searchEngine.search(readLine()!!)
         findPersons.forEach { person -> println(person.toString())}
+    }
+
+    private fun printSearchStrategy() {
+        while (true) {
+            println("Select a matching strategy: ALL, ANY, NONE")
+            val searchStrategy = SearchStrategyFactory.get(readLine())?.searchStrategy
+            if (searchStrategy != null) {
+                searchEngine.setStrategy(searchStrategy)
+                return
+            }
+        }
     }
 
     class UserInput (private val value: Int) {

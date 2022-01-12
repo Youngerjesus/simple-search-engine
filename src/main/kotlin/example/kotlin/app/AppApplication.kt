@@ -1,7 +1,8 @@
 package example.kotlin.app
 
 import example.kotlin.app.stage3.Menu
-import example.kotlin.app.stage5.SearchEngine
+import example.kotlin.app.stage6.SearchEngine
+import example.kotlin.app.stage6.strategies.AnySearchStrategy
 
 fun main() {
 	displayMenu()
@@ -9,7 +10,6 @@ fun main() {
 
 private fun displayMenu() {
 	val menu = Menu
-	val searchEngine = SearchEngine()
 
 	while (true) {
 		menu.display()
@@ -20,11 +20,11 @@ private fun displayMenu() {
 		}
 
 		if (userInput.choiceFindPerson()) {
-			menu.printFoundPeople(searchEngine)
+			menu.printFoundPeople()
 		}
 
 		if (userInput.choicePrintAllPeople()) {
-			menu.printAllPeople(searchEngine)
+			menu.printAllPeople()
 		}
 	}
 }
