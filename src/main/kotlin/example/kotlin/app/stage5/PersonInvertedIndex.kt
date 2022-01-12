@@ -2,8 +2,10 @@ package example.kotlin.app.stage5
 
 import example.kotlin.app.stage2.Person
 
+typealias InvertedIndex = MutableMap<String, MutableSet<Person>>
+
 class PersonInvertedIndex {
-    var invertedIndex = mutableMapOf<String, MutableSet<Person>>()
+    var invertedIndex:InvertedIndex = mutableMapOf()
 
     fun add(person: Person) {
         if (person.email.isNotBlank()) {
