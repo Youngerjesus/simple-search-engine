@@ -120,3 +120,4 @@ In this project you will create your own search engine, though it probably wonâ€
 - [Generic and Any](theory/generic_and_any.md)
 - [Generic functions](theory/generic_functions.md)
 - [Type alias](theory/type_alias.md)
+- [Type bounds](theory/type_bounds.md)
