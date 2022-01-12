@@ -114,3 +114,4 @@ In this project you will create your own search engine, though it probably wonâ€
 - [Data class](theory/data_class.md)
 - [Destructuring declarations](theory/destructuring_declartions.md)
 - [Inheritance](theory/inheritance.md)
+- [Overriding functions](theory/overriding_functions.md)
