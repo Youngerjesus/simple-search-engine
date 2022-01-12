@@ -119,3 +119,4 @@ In this project you will create your own search engine, though it probably wonâ€
 - [Introduction to generic programming](theory/introduction_to_generic_programming.md)
 - [Generic and Any](theory/generic_and_any.md)
 - [Generic functions](theory/generic_functions.md)
+- [Type alias](theory/type_alias.md)
