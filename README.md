@@ -117,3 +117,4 @@ In this project you will create your own search engine, though it probably wonâ€
 - [Overriding functions](theory/overriding_functions.md)
 - [Inheritance and constructors](theory/inheritance_and_constructors.md)
 - [Introduction to generic programming](theory/introduction_to_generic_programming.md)
+- [Generic and Any](theory/generic_and_any.md)
